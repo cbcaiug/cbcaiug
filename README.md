@@ -2,7 +2,20 @@
 
 A suite of specialized AI-powered tools designed to support educators in Uganda with the Competency-Based Curriculum (CBC). This project aims to reduce administrative workload and empower teachers to focus on what matters most: their students.
 
-🚀 **Live Application:** [cbcaiug.github.io](https://cbcaiug.github.io)
+<div align="center">
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-brightgreen)](https://cbcaiug.github.io)
+[![React](https://img.shields.io/badge/React-18+-61DAFB?logo=react&logoColor=white)](https://react.dev/)
+[![Firebase](https://img.shields.io/badge/Firebase-Cloud-FFCA28?logo=firebase&logoColor=black)](https://firebase.google.com/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](mailto:cbcaitool@gmail.com)
+
+🚀 **[Launch App](https://cbcaiug.github.io)** • 📹 **[Watch Demo](https://youtu.be/KGplNQfdf_w)** • 📱 **[Join WhatsApp](https://whatsapp.com/channel/0029Vb6cj6J5vKAGEYH1Fk1d)**
+
+[Report Bug](mailto:cbcaitool@gmail.com?subject=Bug%20Report) · [Request Feature](mailto:cbcaitool@gmail.com?subject=Feature%20Request) · [WhatsApp Support](https://wa.me/256750470234)
+
+</div>
 
 ---
 
@@ -34,7 +47,7 @@ The AI Educational Assistant is specifically designed for Ugandan educators adap
 - 📚 NCDC-aligned content generation
 - 🔒 Privacy-focused (chat history stored locally)
 - 📱 Works on any device (mobile, tablet, desktop)
-- 🌐 Progressive Web App (install for quick access and offline viewing of stored chat history)
+- 🌐 Progressive Web App (installable)
 - 🆓 Generous free tier available
 
 ---
@@ -52,9 +65,11 @@ The AI Educational Assistant is specifically designed for Ugandan educators adap
 - **NCDC-Aligned:** All prompts follow official curriculum guidelines
 - **Versatile Use Cases:** Lesson planning, assessment creation, schemes of work, grading assistance
 
-### Secure Prompt Management
-- **Backend Storage:** Core prompts stored securely on Google Apps Script backend
-- **Quality Control:** Centralized prompt updates for consistent quality
+### Backend Prompt Management
+- **Google Apps Script Storage:** Core prompts stored securely on backend server
+- **Fetched on Demand:** Prompts retrieved when assistant is selected
+- **Not Hardcoded:** Prompts not embedded in client-side source files
+- **Note:** Prompts are visible in browser Network tab when fetched (standard web architecture)
 
 ### Multi-API & Model Support
 - **Major Providers:** Google Gemini, Anthropic Claude, OpenAI GPT, Groq Llama, DeepSeek, Qwen
@@ -117,7 +132,7 @@ For power users who need maximum capacity.
 - **Copy Actions:** 100 clipboard copies
 - **Exclusive Features:** Priority support, early access to new assistants
 
-**Want Unlimited?** Add your own API keys (free from Google Gemini) for extended usage beyond tier limits.
+**Want Extended Usage?** Add your own API keys (free from Google Gemini) for usage beyond tier limits.
 
 📄 **Full Comparison:** Visit [cbcaiug.github.io/billing.html](https://cbcaiug.github.io/billing.html)
 
@@ -145,6 +160,16 @@ For power users who need maximum capacity.
 ---
 
 ## 💻 Tech Stack
+
+<div align="center">
+
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Google Apps Script](https://img.shields.io/badge/Google_Apps_Script-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=github&logoColor=white)
+
+</div>
 
 ### Frontend
 - **React:** Via CDN for component-based UI
@@ -187,21 +212,22 @@ For power users who need maximum capacity.
 
 ### AI Interaction
 1. Select a specialized assistant
-2. Provide input (text, files, syllabus pages)
-3. AI generates content using custom prompts
-4. Review and refine the output
-5. Export to Word, PDF, or Google Docs
+2. Backend fetches assistant's custom prompt from Google Apps Script
+3. Provide input (text, files, syllabus pages)
+4. AI generates content using fetched prompt + your input
+5. Review and refine the output
+6. Export to Word, PDF, or Google Docs
 
 ### API Key Options
 - **Shared Keys:** Use provided keys for free tier quotas
 - **Bring Your Own Key (BYOK):** Add personal API keys for extended usage
-- **Storage:** Keys stored locally in browser (never sent to servers)
-- **Privacy:** Full control over API key security
+- **Storage:** Keys stored in browser localStorage (visible in DevTools, not sent to backend servers)
+- **Privacy:** Keys are sent directly from your browser to AI providers (Google, OpenAI, etc.)
 
 ### Data Storage
-- **Local:** Chat history, API keys, settings (browser storage)
-- **Cloud:** Email, quotas, last active timestamp (Firestore)
-- **Exported Docs:** Google Drive (for quality improvement)
+- **Local (Your Device):** Chat history, API keys, settings (browser localStorage)
+- **Cloud (Firestore):** Email, quotas, last active timestamp, tier status
+- **Exported Docs:** Google Drive (for quality improvement, no personal info attached)
 
 ---
 
@@ -264,11 +290,15 @@ Install the app on your device for quick access and offline viewing of stored ch
 3. Confirm installation
 4. App appears in applications
 
-**Benefits:**
-- ⚡ Faster loading times
-- 📴 Offline access to stored chats
-- 🎯 Dedicated app icon
-- 🔔 Notification support (future)
+### What Works Offline
+- ✅ View previously stored chat history (saved in browser)
+- ✅ Browse UI and cached pages
+- ✅ Access application settings
+- ❌ Send new messages to AI (requires internet connection)
+- ❌ Fetch prompts from backend (requires internet)
+- ❌ Export to Google Docs (requires internet)
+
+**Note:** AI functionality requires an active internet connection since models are cloud-based. The PWA primarily enables quick access and viewing of stored conversations.
 
 ---
 
@@ -316,7 +346,7 @@ Install the app on your device for quick access and offline viewing of stored ch
 
 ### What's Stored Locally (Your Device)
 - ✅ Chat history
-- ✅ API keys (optional)
+- ✅ API keys (visible in browser DevTools, not sent to backend servers, sent directly to AI providers)
 - ✅ Application settings
 - ✅ User preferences
 
@@ -334,7 +364,13 @@ Install the app on your device for quick access and offline viewing of stored ch
 - ❌ Chat content (stays on your device)
 - ❌ Personal student information
 - ❌ Payment card details
-- ❌ API keys (stored locally only)
+
+### What's Visible in Browser DevTools
+- ⚠️ **API Keys:** Stored in localStorage, visible if you open DevTools → Application → Local Storage
+- ⚠️ **Prompts:** Visible in Network tab when fetched from backend (standard web architecture)
+- ⚠️ **Chat History:** Visible in localStorage
+
+**Security Note:** This is standard web application behavior. Your API keys are sent directly from your browser to AI providers (not to our backend servers). Never share your browser's localStorage data or API keys with others.
 
 ### Data Usage
 - **Exported Documents:** May be reviewed for quality improvement (no personal info attached)
@@ -381,19 +417,23 @@ The Service accepts no liability for:
 
 ## 👨💻 Project Creator
 
-This project was conceptualized, designed, and developed by **Derrick Musamali**, a secondary school teacher of Biology and Chemistry in Uganda.
+<div align="center">
+
+**Derrick Musamali**  
+Secondary School Teacher (Biology & Chemistry)  
+Kampala, Uganda
+
+[![Email](https://img.shields.io/badge/Email-cbcaitool%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:cbcaitool@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B256750470234-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/256750470234)
+[![Channel](https://img.shields.io/badge/Updates-WhatsApp_Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029Vb6cj6J5vKAGEYH1Fk1d)
+
+</div>
 
 ### Mission
 To empower Ugandan educators with AI tools that reduce administrative burden and allow more time for meaningful student interaction.
 
 ### Background
 As a practicing teacher, the challenges of adapting to CBC while managing heavy workloads were experienced firsthand. This platform was built to solve real problems faced by teachers every day.
-
-### Contact
-- **Email:** [cbcaitool@gmail.com](mailto:cbcaitool@gmail.com)
-- **WhatsApp:** [+256 750 470234](https://wa.me/256750470234)
-- **Location:** Kampala, Uganda
-- **Updates Channel:** [WhatsApp Channel](https://whatsapp.com/channel/0029Vb6cj6J5vKAGEYH1Fk1d)
 
 ### Support the Project
 This tool will always have a free tier available for teachers. For those who wish to support ongoing development:
@@ -405,9 +445,17 @@ This tool will always have a free tier available for teachers. For those who wis
 
 ## 🤝 Contributing
 
+<div align="center">
+
+[![Report Bug](https://img.shields.io/badge/🐛_Report-Bug-red?style=for-the-badge)](mailto:cbcaitool@gmail.com?subject=Bug%20Report)
+[![Request Feature](https://img.shields.io/badge/💡_Request-Feature-blue?style=for-the-badge)](mailto:cbcaitool@gmail.com?subject=Feature%20Request)
+[![WhatsApp Support](https://img.shields.io/badge/💬_Get-Support-25D366?style=for-the-badge&logo=whatsapp)](https://wa.me/256750470234)
+
+</div>
+
 ### Feedback Welcome
-- 🐛 **Bug Reports:** Found an issue? Report via [email](mailto:cbcaitool@gmail.com) or [WhatsApp](https://wa.me/256750470234)
-- 💡 **Feature Requests:** Have an idea? Share it!
+- 🐛 **Bug Reports:** Found an issue? [Report via email](mailto:cbcaitool@gmail.com?subject=Bug%20Report) or [WhatsApp](https://wa.me/256750470234)
+- 💡 **Feature Requests:** Have an idea? [Submit a request](mailto:cbcaitool@gmail.com?subject=Feature%20Request)
 - 📝 **Content Suggestions:** Know how to improve prompts? Let us know!
 - ⭐ **Reviews:** Share your experience with colleagues
 
@@ -424,6 +472,12 @@ The best way to contribute is:
 ---
 
 ## 📜 License
+
+<div align="center">
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+</div>
 
 This project is licensed under the MIT License.
 
@@ -471,18 +525,29 @@ See the [LICENSE](LICENSE) file for full details.
 
 ## 📞 Get Help
 
-### Need Assistance?
-- 📧 Email: [cbcaitool@gmail.com](mailto:cbcaitool@gmail.com)
-- 💬 WhatsApp: [+256 750 470234](https://wa.me/256750470234)
-- 📱 Updates: [WhatsApp Channel](https://whatsapp.com/channel/0029Vb6cj6J5vKAGEYH1Fk1d)
+<div align="center">
 
-### Response Time
-- **General Inquiries:** Within 48 hours
-- **Bug Reports:** Within 24 hours
-- **Pro Tier Support:** Priority handling
+### Need Assistance?
+
+[![Email Support](https://img.shields.io/badge/📧_Email-Support-red?style=for-the-badge)](mailto:cbcaitool@gmail.com)
+[![WhatsApp Chat](https://img.shields.io/badge/💬_WhatsApp-Chat-25D366?style=for-the-badge&logo=whatsapp)](https://wa.me/256750470234)
+[![Updates Channel](https://img.shields.io/badge/📱_Join-Updates-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vb6cj6J5vKAGEYH1Fk1d)
+
+**Response Time**
+- General Inquiries: Within 48 hours
+- Bug Reports: Within 24 hours
+- Pro Tier Support: Priority handling
+
+</div>
 
 ---
+
+<div align="center">
 
 **Built with ❤️ for Ugandan Educators**
 
 *Empowering teachers to teach smarter, not harder.*
+
+[![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-brightgreen?style=for-the-badge&logo=github)](https://cbcaiug.github.io)
+
+</div>
