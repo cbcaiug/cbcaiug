@@ -34,7 +34,7 @@ The AI Educational Assistant is specifically designed for Ugandan educators adap
 - 📚 NCDC-aligned content generation
 - 🔒 Privacy-focused (chat history stored locally)
 - 📱 Works on any device (mobile, tablet, desktop)
-- 🌐 Progressive Web App (install for offline access)
+- 🌐 Progressive Web App (install for quick access and offline viewing of stored chat history)
 - 🆓 Generous free tier available
 
 ---
@@ -54,7 +54,6 @@ The AI Educational Assistant is specifically designed for Ugandan educators adap
 
 ### Secure Prompt Management
 - **Backend Storage:** Core prompts stored securely on Google Apps Script backend
-- **No Client-Side Exposure:** Prompts not visible in browser code
 - **Quality Control:** Centralized prompt updates for consistent quality
 
 ### Multi-API & Model Support
@@ -245,7 +244,7 @@ For extended usage beyond tier limits:
 
 ## 📱 Installation as PWA
 
-Install the app on your device for quick access and offline capabilities.
+Install the app on your device for quick access and offline viewing of stored chat history.
 
 ### Android (Chrome)
 1. Open the app in Chrome
