@@ -11,10 +11,51 @@ A suite of specialized AI-powered tools designed to support educators in Uganda 
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](mailto:cbcaitool@gmail.com)
 
-🚀 **[Launch App](https://cbcaiug.github.io/app.html)** • 📹 **[Watch Demo](https://youtu.be/KGplNQfdf_w)** • 📱 **[Join WhatsApp](https://whatsapp.com/channel/0029Vb6cj6J5vKAGEYH1Fk1d)**
+🚀 **[Launch App](https://cbcaiug.github.io)** • 📹 **[Watch Demo](https://youtu.be/KGplNQfdf_w)** • 📱 **[Join WhatsApp](https://whatsapp.com/channel/0029Vb6cj6J5vKAGEYH1Fk1d)**
 
 [Report Bug](mailto:cbcaitool@gmail.com?subject=Bug%20Report) · [Request Feature](mailto:cbcaitool@gmail.com?subject=Feature%20Request) · [WhatsApp Support](https://wa.me/256750470234)
 
+</div>
+
+---
+
+## 🖼️ Visual Overview
+
+<div align="center">
+
+### Main Application Interface
+<img src="Images/sidebarAIsettings.png" alt="AI Settings Interface" width="800">
+
+### AI Model Selection
+<img src="Images/AImodelDropdownList.png" alt="AI Model Selection" width="600">
+
+### API Key Management
+<img src="Images/apiKeyDtopdownlist.png" alt="API Key Configuration" width="600">
+
+### File Upload Support
+<img src="Images/fileAttachement.png" alt="File Upload Feature" width="600">
+
+### More Options Menu
+<img src="Images/moreOptionsMenu.png" alt="More Options Menu" width="300">
+
+*Features: Notifications, Share, Delete Chat, FAQ, Feedback, Tutorial, and more*
+
+</div>
+
+---
+
+## 🎥 Video Demo
+
+<div align="center">
+  <a href="https://youtu.be/KGplNQfdf_w">
+    <img src="https://img.youtube.com/vi/KGplNQfdf_w/maxresdefault.jpg" 
+         alt="Watch Full Tutorial" 
+         width="700">
+  </a>
+  
+  <p><b>👆 Click to watch the complete tutorial (15 minutes)</b></p>
+  
+  <a href="https://youtu.be/YXsOnmAD1Lg">Quick Demo (5 min) →</a>
 </div>
 
 ---
@@ -30,7 +71,8 @@ A suite of specialized AI-powered tools designed to support educators in Uganda 
 - [Getting Started](#-getting-started)
 - [Installation as PWA](#-installation-as-pwa)
 - [API Providers Supported](#-api-providers-supported)
-- [Sample Prompts & Outputs](#-sample-prompts--outputs)
+- [Sample Outputs](#-sample-outputs)
+- [Sample Prompts](#-sample-prompts)
 - [Data Privacy & Security](#-data-privacy--security)
 - [Disclaimer](#️-disclaimer)
 - [Project Creator](#-project-creator)
@@ -42,6 +84,13 @@ A suite of specialized AI-powered tools designed to support educators in Uganda 
 ## 🎯 Overview
 
 The AI Educational Assistant is specifically designed for Ugandan educators adapting to the Competency-Based Curriculum. This platform provides specialized AI assistants with custom-built prompts aligned to Uganda's NCDC framework, helping teachers create lesson plans, assessments, and schemes of work in minutes instead of hours.
+
+**Quick Links:**
+- 🏠 [Homepage](https://cbcaiug.github.io/)
+- 🚀 [Launch App](https://cbcaiug.github.io/app.html)
+- 📖 [About](https://cbcaiug.github.io/about.html)
+- ❓ [FAQ](https://cbcaiug.github.io/faq.html)
+- 📋 [Plans](https://cbcaiug.github.io/billing.html)
 
 **Key Benefits:**
 - ⏱️ Reclaim 10+ hours per week
@@ -73,6 +122,9 @@ The AI Educational Assistant is specifically designed for Ugandan educators adap
 - **Note:** Prompts are visible in browser Network tab when fetched (standard web architecture)
 
 ### Multi-API & Model Support
+
+<img src="Images/AImodelDropdownList.png" alt="Supported AI Models" width="400">
+
 - **Major Providers:** Google Gemini, Anthropic Claude, OpenAI GPT, Groq Llama, DeepSeek, Qwen
 - **Seamless Switching:** Change models based on preference and availability
 - **Shared Keys:** Use provided shared keys or bring your own for extended usage
@@ -82,7 +134,10 @@ The AI Educational Assistant is specifically designed for Ugandan educators adap
 - **Progressive Display:** See content as it's generated
 - **Efficient UX:** No waiting for complete responses
 
-### File Uploads
+### File Upload Support
+
+<img src="Images/fileAttachement.png" alt="File Upload Feature" width="400">
+
 - **Vision Support:** Attach syllabus pages, images, or documents
 - **Context-Rich:** Provide AI with visual context for accurate materials
 - **Model Compatibility:** Works with vision-enabled models (Gemini, GPT-4 Vision, Claude 3)
@@ -92,10 +147,24 @@ The AI Educational Assistant is specifically designed for Ugandan educators adap
 - **Google Docs Integration:** Save directly to Google Docs with one click
 - **Cross-Platform:** Works on any device with browser
 
+### More Options Menu
+
+<img src="Images/moreOptionsMenu.png" alt="More Options Menu" width="250">
+
+Access additional features:
+- 🔔 Notifications
+- 📤 Share conversations
+- 🗑️ Delete chat history
+- ❓ FAQ & Help
+- 💬 Feedback
+- 🎥 Video tutorials
+- ⚙️ Advanced settings
+
 ### Admin Dashboard
 - **Real-time Monitoring:** Track active users and quota usage
 - **User Management:** View and manage user accounts
 - **Analytics:** Service usage patterns and statistics
+- **Access:** [Admin Panel](https://cbcaiug.github.io/admin.html) (requires authentication)
 
 ### Responsive Design
 - **Modern UI:** Clean glass morphism interface
@@ -135,30 +204,25 @@ For power users who need maximum capacity.
 
 **Want Extended Usage?** Add your own API keys (free from Google Gemini) for usage beyond tier limits.
 
-📄 **Full Comparison:** Visit [Billing & Plans](https://cbcaiug.github.io/billing.html)
+📄 **Full Comparison:** Visit [Plans Page](https://cbcaiug.github.io/billing.html)
 
 ---
 
 ## 🛠️ Assistants Available
 
-| Assistant Name | Description | Direct Link |
+| Assistant Name | Description | Launch |
 |---|---|---|
-| **Item Writer** | Generates scenario-based assessment items with structured scoring guides | [Launch](https://cbcaiug.github.io/assistants/item-writer.html) |
-| **UCE BIO Item Writer** | Specialized biology assessment items for Uganda Certificate of Education level | [Launch](https://cbcaiug.github.io/app.html) |
-| **Lesson Plans (NCDC)** | Creates detailed lesson plans following the official NCDC template | [Launch](https://cbcaiug.github.io/assistants/lesson-plans-ncdc.html) |
-| **Lesson Plans (with Biblical Integration)** | NCDC lesson plans with integrated biblical values and Christian worldview | [Launch](https://cbcaiug.github.io/app.html) |
-| **UACE SoW NCDC** | Comprehensive schemes of work for Uganda Advanced Certificate of Education level | [Launch](https://cbcaiug.github.io/app.html) |
-| **Scheme of Work NCDC** | Develops structured schemes of work based on CBC syllabus requirements | [Launch](https://cbcaiug.github.io/assistants/scheme-of-work-ncdc.html) |
-| **Scheme of Work (with Biblical Integration)** | CBC schemes of work incorporating biblical principles and Christian values | [Launch](https://cbcaiug.github.io/app.html) |
-| **Lesson Notes Generator** | Produces comprehensive and well-structured notes for any topic | [Launch](https://cbcaiug.github.io/assistants/lesson-notes-generator.html) |
-| **UCE Project Assistant** | Guides students through UCE project planning and execution | [Launch](https://cbcaiug.github.io/app.html) |
-| **AI in Education Coach** | Provides guidance on integrating AI tools into classroom teaching | [Launch](https://cbcaiug.github.io/assistants/ai-in-education-coach.html) |
-| **Essay Grading Assistant** | Helps grade student essays based on specified rubrics and criteria | [Launch](https://cbcaiug.github.io/assistants/essay-grading-assistant.html) |
-| **Coteacher** | All-purpose teaching assistant for questions and brainstorming | [Launch](https://cbcaiug.github.io/assistants/coteacher.html) |
-| **Data & Document Analyst** | Analyzes educational data, documents, and research materials with AI insights | [Launch](https://cbcaiug.github.io/app.html) |
-| **Prompt Assistant** | AI-powered prompt engineering and optimization for educational content | [Launch](https://cbcaiug.github.io/app.html) |
+| **Item Writer** | Generates scenario-based assessment items with structured scoring guides | [Open →](https://cbcaiug.github.io/assistants/item-writer.html) |
+| **Lesson Plans (NCDC)** | Creates detailed lesson plans following the official NCDC template | [Open →](https://cbcaiug.github.io/assistants/lesson-plans-ncdc.html) |
+| **Scheme of Work NCDC** | Develops structured schemes of work based on CBC syllabus requirements | [Open →](https://cbcaiug.github.io/assistants/scheme-of-work-ncdc.html) |
+| **Lesson Notes Generator** | Produces comprehensive and well-structured notes for any topic | [Open →](https://cbcaiug.github.io/assistants/lesson-notes-generator.html) |
+| **Essay Grading Assistant** | Helps grade student essays based on specified rubrics and criteria | [Open →](https://cbcaiug.github.io/assistants/essay-grading-assistant.html) |
+| **Coteacher** | All-purpose teaching assistant for questions and brainstorming | [Open →](https://cbcaiug.github.io/assistants/coteacher.html) |
+| **AI in Education Coach** | Provides guidance on integrating AI tools into classroom teaching | [Open →](https://cbcaiug.github.io/assistants/ai-in-education-coach.html) |
 
-🔍 **View All Assistants:** [Complete List](https://cbcaiug.github.io/app.html)
+**Plus 7 More Specialized Assistants** including UCE Biology Item Writer, Biblical Integration options, UACE Schemes of Work, and more!
+
+📋 **View All Assistants:** Launch the [app](https://cbcaiug.github.io/app.html) to explore
 
 ---
 
@@ -202,7 +266,7 @@ For power users who need maximum capacity.
 ## 🔧 How It Works
 
 ### User Authentication
-1. Visit [cbcaiug.github.io/app.html](https://cbcaiug.github.io/app.html)
+1. Visit [cbcaiug.github.io](https://cbcaiug.github.io)
 2. Sign up with email/password or Google Sign-In
 3. Account created with Firebase Authentication
 4. Initial quotas assigned automatically
@@ -221,7 +285,10 @@ For power users who need maximum capacity.
 5. Review and refine the output
 6. Export to Word, PDF, or Google Docs
 
-### API Key Options
+### API Key Configuration
+
+<img src="Images/apiKeyDtopdownlist.png" alt="API Key Setup" width="500">
+
 - **Shared Keys:** Use provided keys for free tier quotas
 - **Bring Your Own Key (BYOK):** Add personal API keys for extended usage
 - **Storage:** Keys stored in browser localStorage (visible in DevTools, not sent to backend servers)
@@ -345,64 +412,55 @@ Install the app on your device for quick access and offline viewing of stored ch
 
 ---
 
-## 📚 Sample Prompts & Outputs
+## 📄 Sample Outputs
 
-### Sample Prompts
+Real content generated by teachers using CBC AI:
 
-Explore the custom-built prompts that power our specialized assistants:
+### Schemes of Work
 
-#### Study Mode Prompt
-A comprehensive prompt designed to guide students through learning with Socratic questioning and scaffolded support.
-
-🔗 **[View Study Mode Prompt](Sample%20Prompts/Study_mode.md)**
-
-**Key Features:**
-- Guides without giving direct answers
-- Builds on existing knowledge
-- Checks understanding frequently
-- Varies teaching rhythm
-
-#### Lecture Notes Generator Prompt
-An advanced prompt for creating syllabus-aligned, comprehensive lecture notes with proper structure and assessment integration.
-
-🔗 **[View Lecture Notes Prompt](Sample%20Prompts/prompt_Lecture%20Notes%20v2_Markdown.md)**
-
-**Key Features:**
-- States Learning Outcomes first
-- Provides content outlines
-- Links content to LOs repeatedly
-- Includes sample assessments
-
-### Sample Outputs
-
-See real examples of AI-generated educational materials:
-
-#### Senior 5 Biology - Scheme of Work (Term 3)
-A complete term plan covering Respiration and Homeostasis topics, fully aligned with Uganda's CBC.
-
-🔗 **[View Biology SoW](Samples/s5%20Bio%20SoW-Term%203.md)**
-
-**Topics Covered:**
-- Cellular Respiration & ATP Production
-- Homeostatic Control Systems
-- Temperature Regulation
-- Osmoregulation & Plant Adaptations
-
-#### Senior 3 Chemistry - Scheme of Work (Term 3)
-A comprehensive term plan for Fossil Fuels and Chemical Reactions, with practical investigations and assessments.
-
-🔗 **[View Chemistry SoW](Samples/s3%20SoW%20term%203-Fossil%20Fuels%20%26%20Chemical%20reactions_Markdown.md)**
-
-**Topics Covered:**
-- Types, Formation & Uses of Fossil Fuels
-- Reaction Rates & Factors Affecting Them
-- Reversible Reactions in Industry
+| Subject | Level | Term | Preview |
+|---------|-------|------|---------|
+| Biology | S5 | Term 3 | [View Sample →](Samples/s5%20Bio%20SoW-Term%203.md) |
+| Science | S3 | Term 3 - Fossil Fuels | [View Sample →](Samples/s3%20SoW%20term%203-Fossil%20Fuels%20%26%20...) |
 
 ### More Examples
 
-For additional sample outputs across all assistants:
+Explore complete samples including:
+- Lesson plans for various subjects (O-Level & A-Level)
+- Assessment items with marking guides
+- Comprehensive schemes of work
+- Lesson notes and study materials
 
-🔗 **[View All Samples](https://cbcaiug.github.io/samples.html)**
+📋 **Browse All Samples:** [View Samples Page](https://cbcaiug.github.io/samples.html)
+
+---
+
+## 📝 Sample Prompts
+
+Learn how the AI assistants work by exploring sample prompts:
+
+### Available Prompt Examples
+
+| Prompt Type | Description | View |
+|-------------|-------------|------|
+| **Lecture Notes** | Advanced prompt for generating comprehensive lecture notes | [View Prompt →](Sample%20Prompts/prompt_Lecture%20Notes%20v2_Ma...) |
+| **Study Mode** | Interactive study assistant prompt structure | [View Prompt →](Sample%20Prompts/Study_mode.md) |
+
+### Prompt Structure Guide
+
+All assistants follow this general structure:
+
+1. **Role Definition:** "You are an expert [role] for Uganda's CBC..."
+2. **Context Setting:** NCDC guidelines, Ugandan educational context
+3. **Task Instructions:** Specific formatting, requirements
+4. **Output Format:** Template structure
+5. **Quality Criteria:** Alignment checks, cultural appropriateness
+
+**Note:** Full production prompts are proprietary, but these samples demonstrate the structure and approach used.
+
+### Contributing Prompts
+
+Have improved prompts or suggestions? [Share your feedback →](mailto:cbcaitool@gmail.com?subject=Prompt%20Contribution)
 
 ---
 
@@ -499,14 +557,13 @@ To empower Ugandan educators with AI tools that reduce administrative burden and
 ### Background
 As a practicing teacher, the challenges of adapting to CBC while managing heavy workloads were experienced firsthand. This platform was built to solve real problems faced by teachers every day.
 
-### About the Creator
-Learn more about the journey behind this project:
-
-🔗 **[About Me](https://cbcaiug.github.io/aboutMe.html)**
+### Learn More
+- 📖 [About the Creator](https://cbcaiug.github.io/aboutMe.html)
+- 💝 [Support the Project](https://cbcaiug.github.io/gift.html)
 
 ### Support the Project
 This tool will always have a free tier available for teachers. For those who wish to support ongoing development:
-- 💝 [Support the Creator](https://cbcaiug.github.io/gift.html)
+- 💝 [Send a Gift](https://cbcaiug.github.io/gift.html)
 - ⭐ Upgrade to Pro tier for expanded quotas
 - 📣 Share with fellow educators
 
@@ -564,20 +621,21 @@ See the [LICENSE](LICENSE) file for full details.
 ## 📚 Additional Resources
 
 ### Documentation
-- [Main Homepage](https://cbcaiug.github.io/)
+- [Homepage](https://cbcaiug.github.io/)
 - [About the Project](https://cbcaiug.github.io/about.html)
 - [Frequently Asked Questions](https://cbcaiug.github.io/faq.html)
 - [Access Tiers & Plans](https://cbcaiug.github.io/billing.html)
 - [Privacy Policy](https://cbcaiug.github.io/privacy.html)
 - [Terms of Service](https://cbcaiug.github.io/terms.html)
-- [Admin Dashboard](https://cbcaiug.github.io/admin.html) (Authorized users only)
 
 ### Video Guides
-- 🎥 [Full Tutorial](https://youtu.be/KGplNQfdf_w)
-- 🎥 [Quick Demo](https://youtu.be/YXsOnmAD1Lg)
+- 🎥 [Full Tutorial (15 min)](https://youtu.be/KGplNQfdf_w)
+- 🎥 [Quick Demo (5 min)](https://youtu.be/YXsOnmAD1Lg)
 
 ### Sample Outputs
-- 📄 [Generated Materials Gallery](https://cbcaiug.github.io/samples.html)
+- 📄 [View All Samples](https://cbcaiug.github.io/samples.html)
+- 📄 [Schemes of Work Examples](Samples/)
+- 📝 [Sample Prompts](Sample%20Prompts/)
 
 ---
 
@@ -601,6 +659,7 @@ See the [LICENSE](LICENSE) file for full details.
 [![Email Support](https://img.shields.io/badge/📧_Email-Support-red?style=for-the-badge)](mailto:cbcaitool@gmail.com)
 [![WhatsApp Chat](https://img.shields.io/badge/💬_WhatsApp-Chat-25D366?style=for-the-badge&logo=whatsapp)](https://wa.me/256750470234)
 [![Updates Channel](https://img.shields.io/badge/📱_Join-Updates-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vb6cj6J5vKAGEYH1Fk1d)
+[![FAQ Page](https://img.shields.io/badge/❓_Visit-FAQ-blue?style=for-the-badge)](https://cbcaiug.github.io/faq.html)
 
 **Response Time**
 - General Inquiries: Within 48 hours
@@ -617,7 +676,7 @@ See the [LICENSE](LICENSE) file for full details.
 
 *Empowering teachers to teach smarter, not harder.*
 
-[![Visit Website](https://img.shields.io/badge/🌐_Visit-Website-brightgreen?style=for-the-badge)](https://cbcaiug.github.io/)
-[![Launch App](https://img.shields.io/badge/🚀_Launch-App-blue?style=for-the-badge)](https://cbcaiug.github.io/app.html)
+[![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-brightgreen?style=for-the-badge&logo=github)](https://cbcaiug.github.io)
+[![Star this repo](https://img.shields.io/badge/⭐_Star-This_Repo-yellow?style=for-the-badge)](https://github.com/cbcaiug/cbcaiug.github.io)
 
 </div>
