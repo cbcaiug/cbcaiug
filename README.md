@@ -11,7 +11,7 @@ A suite of specialized AI-powered tools designed to support educators in Uganda 
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](mailto:cbcaitool@gmail.com)
 
-🚀 **[Launch App](https://cbcaiug.github.io)** • 📹 **[Watch Demo](https://youtu.be/KGplNQfdf_w)** • 📱 **[Join WhatsApp](https://whatsapp.com/channel/0029Vb6cj6J5vKAGEYH1Fk1d)**
+🚀 **[Launch App](https://cbcaiug.github.io/app.html)** • 📹 **[Watch Demo](https://youtu.be/KGplNQfdf_w)** • 📱 **[Join WhatsApp](https://whatsapp.com/channel/0029Vb6cj6J5vKAGEYH1Fk1d)**
 
 [Report Bug](mailto:cbcaitool@gmail.com?subject=Bug%20Report) · [Request Feature](mailto:cbcaitool@gmail.com?subject=Feature%20Request) · [WhatsApp Support](https://wa.me/256750470234)
 
@@ -30,6 +30,7 @@ A suite of specialized AI-powered tools designed to support educators in Uganda 
 - [Getting Started](#-getting-started)
 - [Installation as PWA](#-installation-as-pwa)
 - [API Providers Supported](#-api-providers-supported)
+- [Sample Prompts & Outputs](#-sample-prompts--outputs)
 - [Data Privacy & Security](#-data-privacy--security)
 - [Disclaimer](#️-disclaimer)
 - [Project Creator](#-project-creator)
@@ -134,28 +135,30 @@ For power users who need maximum capacity.
 
 **Want Extended Usage?** Add your own API keys (free from Google Gemini) for usage beyond tier limits.
 
-📄 **Full Comparison:** Visit [cbcaiug.github.io/billing.html](https://cbcaiug.github.io/billing.html)
+📄 **Full Comparison:** Visit [Billing & Plans](https://cbcaiug.github.io/billing.html)
 
 ---
 
 ## 🛠️ Assistants Available
 
-| Assistant Name | Description | Best For |
+| Assistant Name | Description | Direct Link |
 |---|---|---|
-| **Item Writer** | Generates scenario-based assessment items with structured scoring guides | Creating tests, quizzes, and exams |
-| **UCE BIO Item Writer** | Specialized biology assessment items for Uganda Certificate of Education level | UCE Biology assessments |
-| **Lesson Plans (NCDC)** | Creates detailed lesson plans following the official NCDC template | Daily lesson preparation |
-| **Lesson Plans (with Biblical Integration)** | NCDC lesson plans with integrated biblical values and Christian worldview | Faith-based schools |
-| **UACE SoW NCDC** | Comprehensive schemes of work for Uganda Advanced Certificate of Education level | A-Level planning |
-| **Scheme of Work NCDC** | Develops structured schemes of work based on CBC syllabus requirements | Term/year planning |
-| **Scheme of Work (with Biblical Integration)** | CBC schemes of work incorporating biblical principles and Christian values | Faith-based curriculum planning |
-| **Lesson Notes Generator** | Produces comprehensive and well-structured notes for any topic | Student handouts, study materials |
-| **UCE Project Assistant** | Guides students through UCE project planning and execution | Student project supervision |
-| **AI in Education Coach** | Provides guidance on integrating AI tools into classroom teaching | Professional development |
-| **Essay Grading Assistant** | Helps grade student essays based on specified rubrics and criteria | Marking and feedback |
-| **Coteacher** | All-purpose teaching assistant for questions and brainstorming | General teaching support |
-| **Data & Document Analyst** | Analyzes educational data, documents, and research materials with AI insights | Data analysis, research |
-| **Prompt Assistant** | AI-powered prompt engineering and optimization for educational content | Advanced AI usage |
+| **Item Writer** | Generates scenario-based assessment items with structured scoring guides | [Launch](https://cbcaiug.github.io/assistants/item-writer.html) |
+| **UCE BIO Item Writer** | Specialized biology assessment items for Uganda Certificate of Education level | [Launch](https://cbcaiug.github.io/app.html) |
+| **Lesson Plans (NCDC)** | Creates detailed lesson plans following the official NCDC template | [Launch](https://cbcaiug.github.io/assistants/lesson-plans-ncdc.html) |
+| **Lesson Plans (with Biblical Integration)** | NCDC lesson plans with integrated biblical values and Christian worldview | [Launch](https://cbcaiug.github.io/app.html) |
+| **UACE SoW NCDC** | Comprehensive schemes of work for Uganda Advanced Certificate of Education level | [Launch](https://cbcaiug.github.io/app.html) |
+| **Scheme of Work NCDC** | Develops structured schemes of work based on CBC syllabus requirements | [Launch](https://cbcaiug.github.io/assistants/scheme-of-work-ncdc.html) |
+| **Scheme of Work (with Biblical Integration)** | CBC schemes of work incorporating biblical principles and Christian values | [Launch](https://cbcaiug.github.io/app.html) |
+| **Lesson Notes Generator** | Produces comprehensive and well-structured notes for any topic | [Launch](https://cbcaiug.github.io/assistants/lesson-notes-generator.html) |
+| **UCE Project Assistant** | Guides students through UCE project planning and execution | [Launch](https://cbcaiug.github.io/app.html) |
+| **AI in Education Coach** | Provides guidance on integrating AI tools into classroom teaching | [Launch](https://cbcaiug.github.io/assistants/ai-in-education-coach.html) |
+| **Essay Grading Assistant** | Helps grade student essays based on specified rubrics and criteria | [Launch](https://cbcaiug.github.io/assistants/essay-grading-assistant.html) |
+| **Coteacher** | All-purpose teaching assistant for questions and brainstorming | [Launch](https://cbcaiug.github.io/assistants/coteacher.html) |
+| **Data & Document Analyst** | Analyzes educational data, documents, and research materials with AI insights | [Launch](https://cbcaiug.github.io/app.html) |
+| **Prompt Assistant** | AI-powered prompt engineering and optimization for educational content | [Launch](https://cbcaiug.github.io/app.html) |
+
+🔍 **View All Assistants:** [Complete List](https://cbcaiug.github.io/app.html)
 
 ---
 
@@ -199,7 +202,7 @@ For power users who need maximum capacity.
 ## 🔧 How It Works
 
 ### User Authentication
-1. Visit [cbcaiug.github.io](https://cbcaiug.github.io)
+1. Visit [cbcaiug.github.io/app.html](https://cbcaiug.github.io/app.html)
 2. Sign up with email/password or Google Sign-In
 3. Account created with Firebase Authentication
 4. Initial quotas assigned automatically
@@ -237,7 +240,7 @@ For power users who need maximum capacity.
 
 1. **Visit the App**
    ```
-   https://cbcaiug.github.io
+   https://cbcaiug.github.io/app.html
    ```
 
 2. **Create Account**
@@ -342,6 +345,67 @@ Install the app on your device for quick access and offline viewing of stored ch
 
 ---
 
+## 📚 Sample Prompts & Outputs
+
+### Sample Prompts
+
+Explore the custom-built prompts that power our specialized assistants:
+
+#### Study Mode Prompt
+A comprehensive prompt designed to guide students through learning with Socratic questioning and scaffolded support.
+
+🔗 **[View Study Mode Prompt](Sample%20Prompts/Study_mode.md)**
+
+**Key Features:**
+- Guides without giving direct answers
+- Builds on existing knowledge
+- Checks understanding frequently
+- Varies teaching rhythm
+
+#### Lecture Notes Generator Prompt
+An advanced prompt for creating syllabus-aligned, comprehensive lecture notes with proper structure and assessment integration.
+
+🔗 **[View Lecture Notes Prompt](Sample%20Prompts/prompt_Lecture%20Notes%20v2_Markdown.md)**
+
+**Key Features:**
+- States Learning Outcomes first
+- Provides content outlines
+- Links content to LOs repeatedly
+- Includes sample assessments
+
+### Sample Outputs
+
+See real examples of AI-generated educational materials:
+
+#### Senior 5 Biology - Scheme of Work (Term 3)
+A complete term plan covering Respiration and Homeostasis topics, fully aligned with Uganda's CBC.
+
+🔗 **[View Biology SoW](Samples/s5%20Bio%20SoW-Term%203.md)**
+
+**Topics Covered:**
+- Cellular Respiration & ATP Production
+- Homeostatic Control Systems
+- Temperature Regulation
+- Osmoregulation & Plant Adaptations
+
+#### Senior 3 Chemistry - Scheme of Work (Term 3)
+A comprehensive term plan for Fossil Fuels and Chemical Reactions, with practical investigations and assessments.
+
+🔗 **[View Chemistry SoW](Samples/s3%20SoW%20term%203-Fossil%20Fuels%20%26%20Chemical%20reactions_Markdown.md)**
+
+**Topics Covered:**
+- Types, Formation & Uses of Fossil Fuels
+- Reaction Rates & Factors Affecting Them
+- Reversible Reactions in Industry
+
+### More Examples
+
+For additional sample outputs across all assistants:
+
+🔗 **[View All Samples](https://cbcaiug.github.io/samples.html)**
+
+---
+
 ## 🔒 Data Privacy & Security
 
 ### What's Stored Locally (Your Device)
@@ -435,6 +499,11 @@ To empower Ugandan educators with AI tools that reduce administrative burden and
 ### Background
 As a practicing teacher, the challenges of adapting to CBC while managing heavy workloads were experienced firsthand. This platform was built to solve real problems faced by teachers every day.
 
+### About the Creator
+Learn more about the journey behind this project:
+
+🔗 **[About Me](https://cbcaiug.github.io/aboutMe.html)**
+
 ### Support the Project
 This tool will always have a free tier available for teachers. For those who wish to support ongoing development:
 - 💝 [Support the Creator](https://cbcaiug.github.io/gift.html)
@@ -495,20 +564,20 @@ See the [LICENSE](LICENSE) file for full details.
 ## 📚 Additional Resources
 
 ### Documentation
+- [Main Homepage](https://cbcaiug.github.io/)
 - [About the Project](https://cbcaiug.github.io/about.html)
 - [Frequently Asked Questions](https://cbcaiug.github.io/faq.html)
 - [Access Tiers & Plans](https://cbcaiug.github.io/billing.html)
 - [Privacy Policy](https://cbcaiug.github.io/privacy.html)
 - [Terms of Service](https://cbcaiug.github.io/terms.html)
+- [Admin Dashboard](https://cbcaiug.github.io/admin.html) (Authorized users only)
 
 ### Video Guides
 - 🎥 [Full Tutorial](https://youtu.be/KGplNQfdf_w)
 - 🎥 [Quick Demo](https://youtu.be/YXsOnmAD1Lg)
 
 ### Sample Outputs
-- 📄 [Generated Lesson Plans](https://cbcaiug.github.io/samples.html)
-- 📄 [Assessment Items](https://cbcaiug.github.io/samples.html)
-- 📄 [Schemes of Work](https://cbcaiug.github.io/samples.html)
+- 📄 [Generated Materials Gallery](https://cbcaiug.github.io/samples.html)
 
 ---
 
@@ -548,6 +617,7 @@ See the [LICENSE](LICENSE) file for full details.
 
 *Empowering teachers to teach smarter, not harder.*
 
-[![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-brightgreen?style=for-the-badge&logo=github)](https://cbcaiug.github.io)
+[![Visit Website](https://img.shields.io/badge/🌐_Visit-Website-brightgreen?style=for-the-badge)](https://cbcaiug.github.io/)
+[![Launch App](https://img.shields.io/badge/🚀_Launch-App-blue?style=for-the-badge)](https://cbcaiug.github.io/app.html)
 
 </div>
